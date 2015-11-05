@@ -7,3 +7,5 @@ To install clone this repo and run the powershell script in the install folder. 
 In order to compile this you must use Visual Studio 2015. Please note that the Youtube API key located in ` ```XenoForumsApp.Source-v1.0.1.0/XenoForumsApp.W10/Sections`` to one generated at Google Developers Hub. A guide can be found at https://developers.google.com/youtube/v3/getting-started (read the before you start section!)
 ## About
 This app was made with Microsoft App Studio.
+## Imgur Album
+<blockquote class="imgur-embed-pub" lang="en" data-id="HQHLw"><a href="//imgur.com/HQHLw">GitHub Screenshots</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
