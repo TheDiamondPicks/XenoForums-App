@@ -8,4 +8,4 @@ In order to compile this you must use Visual Studio 2015. Please note that the Y
 ## About
 This app was made with Microsoft App Studio.
 ## Imgur Album
-<blockquote class="imgur-embed-pub" lang="en" data-id="HQHLw"><a href="//imgur.com/HQHLw">GitHub Screenshots</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/HQHLw"><a href="//imgur.com/a/HQHLw">GitHub Screenshots</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
