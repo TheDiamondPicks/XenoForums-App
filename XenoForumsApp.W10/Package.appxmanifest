@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:appstudio="http://schemas.microsoft.com/developer/appx/2015/appstudio" 
+  IgnorableNamespaces="uap mp appstudio">
+			<Identity Name="7e7b0447-0f43-4f1b-a7f5-5ce5db458650" Publisher="CN=AppStudio" Version="1.0.1.0" />
+	    <mp:PhoneIdentity PhoneProductId="46b6cb3f-e010-423d-8ef6-f6bf3a8661fb" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+    <Properties>
+        <DisplayName>AppStudio App</DisplayName>
+        <PublisherDisplayName>AppStudio</PublisherDisplayName>
+        <Logo>Assets\StoreLogo.png</Logo>
+    </Properties>
+    <Dependencies>
+        <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.10240.0" />
+    </Dependencies>
+    <Resources>
+        <Resource Language="x-generate"/>
+    </Resources>
+    <Applications>
+        <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="XenoForumsApp.App">
+            <uap:VisualElements 
+			  DisplayName="XenoForums App"
+              Square150x150Logo="Assets\Square150x150Logo.png"
+              Square44x44Logo="Assets\Square44x44Logo.png"
+              Description="The official XenoForums App for Windows 10. View the latest news and threads on the go wherever you are. Website: http://xenoforums.16mb.com Please report any bugs or make suggestions here."
+              BackgroundColor="#1abe35">
+                <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#1abe35"/>
+                <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\Square310x310Logo.png">
+                    <uap:TileUpdate Recurrence="halfHour" UriTemplate="http://ds.winappstudio.com/api/tile10?config=sQIAAB~LCAAAAAAABACVkstOwzAQRf9l1qZJJMoiG1QKQkgUKhrUBWJh0mli1S/ZTpWqyr8zeRUWgIq8mcf1PR7bR7j12cEipJeMwrnRW1FAeoRXJyGFMgSbRlGN2myNq5SfJFfqY5IbFQm9wXpiS3vdd6KLoeS8h4ZBhspKHrA1y4TEJ64ohiXiDhjcOK43QhMqJq7wJD0MCureO1NZD~nbEVbVx7dsjaIoA6RJHLeEOqwCz3ejz51EhTr00rbbsmmkQEUyzkSQSO5rxy2kWy49MlgI/Sg00h5dSUk5r4c8YS283TJqV~Eg~5uaSVFo1dnGNOuD4gX2Dg37CT2rQmnciR1c9Sd6~oXupQM5~T95jM4ee/rb2GfCe7~hRe/ncjpFl7ZfisELKrPHBXeF0CfE3BnbPeHzHh19hS5eSp7jSGveu9V8Akytr/SxAgAA"/>
+                    <uap:ShowNameOnTiles>
+                        <uap:ShowOn Tile="square150x150Logo"/>
+						<uap:ShowOn Tile="square310x310Logo" />
+                    </uap:ShowNameOnTiles>
+                </uap:DefaultTile>
+            </uap:VisualElements>
+        </Application>
+    </Applications>
+    <Capabilities>
+        <Capability Name="internetClient" />
+    </Capabilities>
+    <appstudio:Metadata>
+        <appstudio:Item Name="appId" Value="46b6cb3f-e010-423d-8ef6-f6bf3a8661fb" />
+        <appstudio:Item Name="model" Version="1.12" />
+        <appstudio:Item Name="formula" Value="Win10" Version="1.11.1102.1" />
+        <appstudio:Item DataSource="Rss" Version="1.0.*"/>
+        <appstudio:Item DataSource="YouTube" Version="1.0.*"/>
+        <appstudio:Item DataSource="Collection" Version="1.0.*"/>
+        <appstudio:Item DataSource="Menu" Version="1.0.*"/>
+    </appstudio:Metadata>
+</Package>
