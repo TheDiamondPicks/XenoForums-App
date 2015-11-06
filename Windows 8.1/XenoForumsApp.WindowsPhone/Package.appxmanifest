@@ -5,7 +5,7 @@
          xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
          xmlns:appstudio="http://schemas.microsoft.com/developer/appx/2015/appstudio" 
          IgnorableNamespaces="appstudio">
-  <Identity Name="fd15ba69-816e-4914-9dc3-03ef5ff423db" Publisher="CN=AppStudio" Version="1.0.0.0" />
+  <Identity Name="44c35804-da78-43a7-b64c-13e88cad69d9" Publisher="CN=AppStudio" Version="1.0.1.0" />
 
   <mp:PhoneIdentity PhoneProductId="1e09cc71-211c-4517-aac3-7d746487b21b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 

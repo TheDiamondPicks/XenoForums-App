@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{0E5FAF0F-38F2-4C90-8CFA-322BE5771B14}</ProjectGuid>
+    <ProjectGuid>{EEC2B5D6-A4FA-45BE-A697-63E430213DA5}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>XenoForumsApp</RootNamespace>

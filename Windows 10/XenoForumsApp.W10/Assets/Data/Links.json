@@ -4,41 +4,41 @@
     "Title": "Forums",
     "Icon": "/Assets/DataImages/comment.png",
     "Target": "http://xenoforums.16mb.com/index.php",
-    "_id": "76151018-d170-4bac-9ca8-cffabbcbb2be"
+    "_id": "9502c3cb-c476-4bab-a90d-b252cbd931c8"
   },
   {
     "MenuType": "DeepLink",
     "Title": "Server Store",
     "Icon": "/Assets/DataImages/shop.png",
     "Target": "http://xenoservermc.buycraft.net/",
-    "_id": "093edd12-5024-4efc-a06c-007a9f2e49da"
+    "_id": "94491dee-eb4b-4277-b8f4-7ca5b103c009"
   },
   {
     "MenuType": "DeepLink",
     "Title": "Server Information",
     "Icon": "/Assets/DataImages/openwith.png",
     "Target": "http://xenoforums.16mb.com/index.php?threads/server-ip.77/",
-    "_id": "af2e6527-b5ff-49bc-8c89-1b267d114005"
+    "_id": "6c1b3848-9508-472c-8152-2b77e9cd6602"
   },
   {
     "MenuType": "DeepLink",
     "Title": "Rules",
     "Icon": "/Assets/DataImages/important-1.png",
     "Target": "http://xenoforums.16mb.com/index.php?threads/the-rules.2/",
-    "_id": "12e0087e-820f-409f-9ed6-12fc67ae5ce1"
+    "_id": "916ba014-60bb-498f-8e50-3009930d62b1"
   },
   {
     "MenuType": "DeepLink",
     "Title": "FAQ",
     "Icon": "/Assets/DataImages/help.png",
     "Target": "http://xenoforums.16mb.com/index.php?threads/xenoforums-faq.318/",
-    "_id": "c64b1665-ae6b-45be-8d30-045b4ce6487a"
+    "_id": "e5c741ba-3a29-48d3-a9ce-d06c44ca81f6"
   },
   {
     "MenuType": "DeepLink",
     "Title": "Always Updated Staff List",
     "Icon": "/Assets/DataImages/contact.png",
     "Target": "http://xenoforums.16mb.com/index.php?threads/official-staff-list.12/",
-    "_id": "02444c40-b791-48bf-a803-bf5eede0b2b2"
+    "_id": "778b9fb0-7cd0-47dc-a75e-0b4bfe010cfa"
   }
 ]
