@@ -118,6 +118,20 @@
                     <list_layouts:MenuSmall DataContext="{Binding}" ItemsSource="{Binding Items}" ItemClickCommand="{Binding ItemClickCommand}" OneRowModeEnabled="False" Margin="19,0,12,0"/>
                 </DataTemplate>
             </was_controls:SectionListItem>
+            <was_controls:SectionListItem
+                DataContext="{Binding ServerStatus}"
+                HeaderLinkClickCommand="{Binding SectionHeaderClickCommand}" 
+                HeaderLinkVisibility="Visible"
+                ErrorVisibility="{Binding HasLoadDataErrors, Converter={StaticResource BoolToVisibilityConverter}, FallbackValue=Collapsed}"
+                LoadingVisibility="{Binding IsBusy, Converter={StaticResource BoolToVisibilityConverter}, FallbackValue=Collapsed}"
+                d:DataContext="{d:DesignData Source=/Assets/Design/DesignDataHtml.json, Type=vm:DesignViewModel, IsDesignTimeCreatable=true}">
+                <DataTemplate>
+                    <Grid Height="400">
+                        <was_controls:ReadingWebView DataContext="{Binding}" DetailContent="{Binding Items[0].Content}" FlyoutEnabled="False" Background="Transparent" Foreground="{StaticResource DescriptionForeground}" ContentAlignment="Left" Margin="11,0,0,0" CacheEnabled="true"/>
+                        <Grid Height="400" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Transparent"/>
+                    </Grid>
+                </DataTemplate>
+            </was_controls:SectionListItem>
                 
         </was_controls:SectionList>
         <controls:DataUpdateInformationControl Grid.Row="2" Grid.ColumnSpan="2" LastUpdateDateTime="{Binding LastUpdated}" Color="{StaticResource PageTitleForeground}" Margin="22,4,22,4" HorizontalAlignment="Left"/>

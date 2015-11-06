@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest"
+         xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest"
+         xmlns:appstudio="http://schemas.microsoft.com/developer/appx/2015/appstudio" 
+         IgnorableNamespaces="appstudio">
+    
+  <Identity Name="fd15ba69-816e-4914-9dc3-03ef5ff423db" Publisher="CN=AppStudio" Version="1.0.0.0" />
+
+  <Properties>
+    <DisplayName>AppStudio App</DisplayName>
+    <PublisherDisplayName>AppStudio</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="XenoForumsApp.App">
+      <m2:VisualElements DisplayName="XenoForums App" Description="Use this to create an app from scratch."
+                         ForegroundText="dark" 
+                         BackgroundColor="#1abe35"
+                         Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png">
+
+        <m2:DefaultTile ShortName="XenoForums App"
+                        Wide310x150Logo="Assets\Wide310x150Logo.png"
+                        Square70x70Logo="Assets\Square70x70Logo.png">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+            <m2:ShowOn Tile="wide310x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#1abe35"/>
+        <m2:ApplicationView MinWidth="width320" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+    
+  <appstudio:Metadata>
+    <appstudio:Item Name="appId" Value="1e09cc71-211c-4517-aac3-7d746487b21b" />
+    <appstudio:Item Name="model" Version="1.11" />
+    <appstudio:Item Name="formula" Value="Win81" Version="1.11.1102.1" />
+    <appstudio:Item DataSource="Rss" Version="1.0.1"/>
+    <appstudio:Item DataSource="YouTube" Version="1.0.1"/>
+    <appstudio:Item DataSource="Collection" Version="1.0.1"/>
+    <appstudio:Item DataSource="Menu" Version="1.0.1"/>
+    <appstudio:Item DataSource="Html" Version="1.0.1"/>
+  </appstudio:Metadata>
+</Package>

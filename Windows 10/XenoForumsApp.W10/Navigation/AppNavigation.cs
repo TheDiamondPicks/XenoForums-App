@@ -79,6 +79,12 @@ namespace XenoForumsApp.Navigation
             });
             Nodes.Add(new ItemNavigationNode
             {
+                Label = "Server Status",
+                FontIcon = "\ue102",
+                NavigationInfo = NavigationInfo.FromPage("ServerStatusListPage")
+            });
+            Nodes.Add(new ItemNavigationNode
+            {
                 Label = resourceLoader.GetString("NavigationPaneAbout"),
                 FontIcon = "\ue11b",
                 NavigationInfo = NavigationInfo.FromPage("AboutPage")

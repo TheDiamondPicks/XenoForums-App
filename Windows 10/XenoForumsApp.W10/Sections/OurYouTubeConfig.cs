@@ -19,7 +19,7 @@ namespace XenoForumsApp.Sections
             {
                 return new YouTubeDataProvider(new YouTubeOAuthTokens
                 {
-                    ApiKey = "PleaseAddAAPIKey"
+                    ApiKey = "AIzaSyDoPVOrxM_aTjAEWZqjYK7gMhiDANcet7s"
                 });
             }
         }

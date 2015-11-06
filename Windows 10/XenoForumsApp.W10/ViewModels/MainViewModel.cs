@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Controls;
 using AppStudio.DataProviders.Rss;
 using AppStudio.DataProviders.YouTube;
 using AppStudio.DataProviders.Menu;
+using AppStudio.DataProviders.Html;
 using AppStudio.DataProviders.LocalStorage;
 using AppStudio.DataProviders.DynamicStorage;
 using XenoForumsApp.Sections;
@@ -29,6 +30,7 @@ namespace XenoForumsApp.ViewModels
             OurYouTube = new ListViewModel<YouTubeDataConfig, YouTubeSchema>(new OurYouTubeConfig(), visibleItems);
             OurStaffMembers = new ListViewModel<DynamicStorageDataConfig, OurStaffMembers1Schema>(new OurStaffMembersConfig(), visibleItems);
             Links = new ListViewModel<LocalStorageDataConfig, MenuSchema>(new LinksConfig());
+            ServerStatus = new ListViewModel<LocalStorageDataConfig, HtmlSchema>(new ServerStatusConfig(), visibleItems);
             Actions = new List<ActionInfo>();
 
             if (GetViewModels().Any(vm => !vm.HasLocalData))
@@ -49,6 +51,7 @@ namespace XenoForumsApp.ViewModels
         public ListViewModel<YouTubeDataConfig, YouTubeSchema> OurYouTube { get; private set; }
         public ListViewModel<DynamicStorageDataConfig, OurStaffMembers1Schema> OurStaffMembers { get; private set; }
         public ListViewModel<LocalStorageDataConfig, MenuSchema> Links { get; private set; }
+        public ListViewModel<LocalStorageDataConfig, HtmlSchema> ServerStatus { get; private set; }
 
         public RelayCommand<INavigable> SectionHeaderClickCommand
         {
@@ -118,6 +121,7 @@ namespace XenoForumsApp.ViewModels
             yield return OurYouTube;
             yield return OurStaffMembers;
             yield return Links;
+            yield return ServerStatus;
         }
     }
 }

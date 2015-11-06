@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{0EECBF40-85BF-4E50-8072-FBFF8D1AD353}</ProjectGuid>
+    <ProjectGuid>{0E5FAF0F-38F2-4C90-8CFA-322BE5771B14}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>XenoForumsApp</RootNamespace>
@@ -219,6 +219,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Views\ServerStatusListPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Views\AboutPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -347,6 +351,9 @@
     <Compile Include="Views\LinksListPage.xaml.cs">
       <DependentUpon>LinksListPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\ServerStatusListPage.xaml.cs">
+      <DependentUpon>ServerStatusListPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\AboutPage.xaml.cs">
       <DependentUpon>AboutPage.xaml</DependentUpon>
     </Compile>
@@ -395,6 +402,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sections\OurStaffMembers1Schema.cs" />
     <Compile Include="Sections\OurStaffMembersConfig.cs" />
+    <Compile Include="Sections\ServerStatusConfig.cs" />
     <Compile Include="Sections\LinksConfig.cs" />
     <Compile Include="Sections\LatestNewsConfig.cs" />
     <Compile Include="Sections\LatestPostsConfig.cs" />
@@ -439,6 +447,8 @@
           <Content Include="Assets\StoreLogo.scale-100.png" />
           <Content Include="Assets\Wide310x150Logo.scale-100.png" />
           <Content Include="Assets\Data\Links.json" />
+          <Content Include="Assets\Data\ServerStatus.htm" />
+          <Content Include="Assets\DataImages\banner.png" />
           <Content Include="Assets\DataImages\comment.png" />
           <Content Include="Assets\DataImages\contact.png" />
           <Content Include="Assets\DataImages\help.png" />
