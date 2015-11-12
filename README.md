@@ -19,5 +19,8 @@ This app was made with Microsoft App Studio.
 ## Imgur Album
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/HQHLw"><a href="//imgur.com/a/HQHLw">GitHub
 Screenshots</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+## How our versioning system works
+We have a very specific versioning system:
+[OS].[Major release].[Minor release].[Bug fixing]
 ## Known Caveats
 Updating creates duplicate apps. You can fix this by uninstalling the old version.
