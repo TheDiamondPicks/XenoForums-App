@@ -10,6 +10,7 @@ To install clone this repo and run the powershell script in the install folder. 
 1. Install the mobile certificate found at this URL: https://appstudio.windows.com/Job/getaet
 
 2. Download and install the app found in the ```Windows 10/install/ARM``` folder.
+#### Installation instructions for Window 8.1 are the same as Windows 10 but install the contents of the ```Windows 8.1``` folder.
 
 
 ## Compiling
